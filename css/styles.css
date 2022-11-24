@@ -108,7 +108,7 @@ aside {
 }
 
 
-aside #ultimo-lancamento #imagens-aside{
+aside .secao-aside .postagem-aside{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -123,6 +123,11 @@ aside img {
 aside section {
     padding: 20px 0 20px 0;
     border-bottom: 2px solid #202020;
+}
+
+section.secao-aside ul {
+    padding-left: 30px;
+    margin: 10px;
 }
 
 /* Formularios */
@@ -151,7 +156,6 @@ fieldset {
     margin: 5px;
     text-align: left;
 }
-
 
 .input {
     padding: 10px;
@@ -280,7 +284,8 @@ footer li {
         left: 168px;
     }
 
-    aside #ultimo-lancamento #imagens-aside{
+    aside .secao-aside .postagem-aside{
         flex-direction: row;
+        justify-content: space-around;
     }
 }
