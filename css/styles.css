@@ -266,7 +266,7 @@ footer li {
 
 /* Responsividade */
 
-@media (max-width: 1080px) {
+@media (max-width: 1020px) {
     #conteudo {
         flex-direction: column;
         width: 670px;
