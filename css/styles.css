@@ -28,6 +28,11 @@ a:hover{
 header {
     text-align: center;
 }
+
+header h1{
+    display: None
+}
+
 header #logo{
     margin: 0;
 }
@@ -266,7 +271,7 @@ footer li {
 
 /* Responsividade */
 
-@media (max-width: 1020px) {
+@media (max-width: 1040px) {
     #conteudo {
         flex-direction: column;
         width: 670px;
