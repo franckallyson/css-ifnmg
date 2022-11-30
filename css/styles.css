@@ -272,9 +272,26 @@ footer li {
 /* Responsividade */
 
 @media (max-width: 1040px) {
+    header #logo a img{
+        width: 100%;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header ul li {
+        font-size: 20px;
+    }
+
     #conteudo {
         flex-direction: column;
-        width: 670px;
+        align-items: center;
+    }
+
+    #area-central{
+        width: 100%;
     }
 
     aside {
@@ -292,5 +309,22 @@ footer li {
     aside .secao-aside .postagem-aside{
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    footer {
+        font-size: 30px;
+    }
+
+    footer #contatos {
+        display: table;
+    }
+
+    footer #contatos ul {
+        display: table-cell;
+        vertical-align: bottom;
+    }
+
+    footer #contatos ul li a img{
+        width: 60px;
     }
 }
